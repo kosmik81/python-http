@@ -1,5 +1,5 @@
 FROM python:2
-ADD logo.png
+COPY logo.png logo.png
 COPY http-server.py app.py
 ENV PORT 8080
 EXPOSE 8080
